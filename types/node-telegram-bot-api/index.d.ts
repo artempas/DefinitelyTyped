@@ -717,6 +717,7 @@ declare namespace TelegramBot {
         has_media_spoiler?: boolean | undefined;
         user_shared?: UserShared | undefined;
         chat_shared?: ChatShared | undefined;
+        via_bot?: User | undefined;
     }
 
     interface MessageEntity {
